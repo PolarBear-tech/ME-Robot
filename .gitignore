@@ -1,0 +1,102 @@
+#UserDefine
+/MDK-ARM/RM_Frame_C
+/cmake-build-debug
+/.idea
+RM_Frame_C.uvguix.*
+MDK-ARM/JLinkLog.txt
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+# ------------------------------------------------------------------
+# macOS / Windows / editor junk
+# ------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+*.bak
+*.tmp
+*.log
+
+
+# ------------------------------------------------------------------
+# CMake generated files
+# ------------------------------------------------------------------
+CMakeFiles/
+cmake-build-*/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.cmake.stamp
+build/
+
+# ------------------------------------------------------------------
+# Keil MDK-ARM generated files
+# ------------------------------------------------------------------
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/EventRecorderStub.scvd
+MDK-ARM/Listings/
+MDK-ARM/Objects/
+*.lst
+*.crf
+*.dep
+*.d
+*.o
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.htm
+*.lnp
+*.iex
+*.sct
+*.build_log.htm
+*.uvguix.*
+*.uvopt.bak
+JLinkLog.txt
+JLinkSettings.ini
+
+# ------------------------------------------------------------------
+# STM32CubeMX generated / local files
+# ------------------------------------------------------------------
+*.mxproject.bak
+.mxproject.orig
